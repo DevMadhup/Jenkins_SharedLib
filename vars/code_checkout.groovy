@@ -1,3 +1,3 @@
-def call(String url, String branch){
-  git url: ${url}, branch: ${branch}
+def call(){
+  git url: "https://github.com/DevMadhup/node-todo-cicd.git", branch: "master"
 }
