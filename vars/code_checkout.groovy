@@ -1,3 +1,3 @@
-def call(String giturl, String branch){
-  git url: ${giturl}, branch: ${branch}
+def call(){
+  git url: https://github.com/DevMadhup/wanderlust.git branch: feat-131-dockerize
 }
